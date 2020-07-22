@@ -9,9 +9,9 @@ Create log files in a folder and pick a name
 Then...
 
 ```
-const jo-logger = require('jo-logger')
+const joLogger = require('jo-logger')
 
-jo-logger({
+joLogger({
   message: 'Log Message',
   name: 'logName',
   folder: 'logFolder'
